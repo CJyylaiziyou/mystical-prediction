@@ -205,7 +205,7 @@ class BaziCalculator(BaseDiviner):
         
         # 统计帮扶日干的力量
         support = 0
-        克制日干的力量克制 = 0
+        counter = 0
         
         for stem in stems[1:]:  # 除了日干本身
             element = self.STEM_ELEMENT_MAP[stem]
@@ -215,16 +215,16 @@ class BaziCalculator(BaseDiviner):
             elif self._element_generates(element, day_stem_element):
                 support += 1
             elif self._element_generates(day_stem_element, element):
-                克制 -= 1
+                counter -= 1
             elif self._element_counters(element, day_stem_element):
-                克制 -= 2
+                counter -= 2
         
-        strength = "强" if support > 克制 else "弱" if support < 克制 else "平"
+        strength = "强" if support > abs(counter) else "弱" if support < abs(counter) else "平"
         
         return {
             "strength": strength,
             "support_power": support,
-            "counter_power": 克制,
+            "counter_power": counter,
             "needs": self._get_element_needs(strength, day_stem_element)
         }
     

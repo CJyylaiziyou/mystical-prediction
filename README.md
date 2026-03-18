@@ -1,5 +1,48 @@
 
-# Mystical Prediction 🔮
+# 🔮 Mystical Prediction
+
+<div align="center">
+
+[![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)](https://python.org)
+[![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+[![GitHub Stars](https://img.shields.io/github/stars/CJyylaiziyou/mystical-prediction?style=social)](https://github.com/CJyylaiziyou/mystical-prediction)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
+[![Code Style](https://img.shields.io/badge/code%20style-pythonic-orange.svg)]()
+
+**宗师级多维命运预测引擎 | Master-Level Multi-System Divination Engine**
+
+*融合7大传统预测智慧体系，一行代码生成综合命运报告*
+
+</div>
+
+---
+
+## ⚡ 30秒快速体验
+
+```python
+from src.core import BirthInfo
+from src.engine import SageDivination
+
+birth = BirthInfo(1990, 3, 18, 14, 30, "湖南岳阳", "女")
+sage = SageDivination(birth)
+report = sage.generate_comprehensive_report(question="事业发展如何？")
+print(report)
+```
+
+**输出（节选）：**
+```
+============================================================
+✨ Mystical Prediction — 多维命运综合报告
+============================================================
+📊 八字四柱  日主庚金·阳刚果断 | 喜用神：火 | 大运：壬申
+🌟 紫微斗数  命宫天府·财库格局 | 太阳化禄入财帛
+♈ 西洋占星  太阳双鱼·月亮天蝎·上升巨蟹 | 水象主导
+🃏 塔 罗 牌  命运之轮正位·世界牌逆位 | 整体能量：积极
+☯️ 易经六十四卦  既济卦→未济卦 | 体用：用生体（大吉）
+🌸 梅花易数  乾上坤下·泰卦 | 体用比和，稳健前行
+🧭 奇门遁甲  阳遁三局·开门+天心 | 吉方：西北（乾宫）
+============================================================
+```
 
 > 一个集成7大传统预测智慧体系的高精度多维预测引擎
 > 
