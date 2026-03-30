@@ -1,11 +1,11 @@
 # Mystical Prediction - 项目依赖
 
 # 核心依赖
-numpy>=2.4.3
+numpy>=2.4.4
 pandas>=3.0.1
 
 # API和web框架（可选，用于构建Web服务）
-fastapi>=0.135.1
+fastapi>=0.135.2
 pydantic>=2.12.5
 uvicorn>=0.42.0
 
@@ -16,7 +16,7 @@ pyephem>=9.99
 lunarcalendar>=0.0.9
 
 # 数据处理
-requests>=2.32.5
+requests>=2.33.0
 SQLAlchemy>=2.0.48
 
 # 测试
