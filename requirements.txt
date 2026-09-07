@@ -1,13 +1,13 @@
 # Mystical Prediction - 项目依赖
 
 # 核心依赖
-numpy>=2.5.1
-pandas>=3.0.3
+numpy>=2.5.3
+pandas>=3.0.5
 
 # API和web框架（可选，用于构建Web服务）
-fastapi>=0.139.2
-pydantic>=2.13.4
-uvicorn>=0.51.0
+fastapi>=0.141.1
+pydantic>=2.13.5
+uvicorn>=0.52.4
 
 # 占星计算库
 pyephem>=9.99
@@ -17,7 +17,7 @@ lunarcalendar>=0.0.9
 
 # 数据处理
 requests>=2.34.2
-SQLAlchemy>=2.0.51
+SQLAlchemy>=2.0.52
 
 # 测试
 pytest>=9.1.1
@@ -27,12 +27,12 @@ pytest-asyncio>=1.4.0
 # 代码质量
 black>=26.5.1
 flake8>=7.3.0
-mypy>=2.3.0
+mypy>=2.3.1
 
 # 文档
 sphinx>=9.1.0
 sphinx-rtd-theme>=3.1.0
 
 # 日志和监控（可选）
-python-dotenv>=1.2.2
+python-dotenv>=1.2.3
 loguru>=0.7.3
