@@ -24,7 +24,7 @@ def test_bazi_year_pillar():
     birth = BirthInfo(year=1989, month=4, day=3, hour=2, minute=52, gender="女")
     calc = BaziCalculator(birth)
     result = calc.predict()
-    assert "己" in result.key_info.get("year_pillar", "")
+    assert "己" in result.key_info["four_pillars"]["year"]
     print("✅ 年柱计算测试通过")
 
 
