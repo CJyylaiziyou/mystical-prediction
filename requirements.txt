@@ -2,12 +2,12 @@
 
 # 核心依赖
 numpy>=2.5.3
-pandas>=3.0.5
+pandas>=3.0.6
 
 # API和web框架（可选，用于构建Web服务）
 fastapi>=0.141.1
 pydantic>=2.13.5
-uvicorn>=0.52.4
+uvicorn>=0.53.0
 
 # 占星计算库
 pyephem>=9.99
@@ -17,7 +17,7 @@ lunarcalendar>=0.0.9
 
 # 数据处理
 requests>=2.34.2
-SQLAlchemy>=2.0.52
+SQLAlchemy>=2.0.54
 
 # 测试
 pytest>=9.1.1
