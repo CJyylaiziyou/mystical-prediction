@@ -5,9 +5,9 @@ numpy>=2.5.3
 pandas>=3.0.6
 
 # API和web框架（可选，用于构建Web服务）
-fastapi>=0.141.1
+fastapi>=0.142.2
 pydantic>=2.13.5
-uvicorn>=0.53.0
+uvicorn>=0.54.0
 
 # 占星计算库
 pyephem>=9.99
@@ -17,7 +17,7 @@ lunarcalendar>=0.0.9
 
 # 数据处理
 requests>=2.34.2
-SQLAlchemy>=2.0.54
+SQLAlchemy>=2.1.3
 
 # 测试
 pytest>=9.1.1
@@ -25,14 +25,14 @@ pytest-cov>=7.1.0
 pytest-asyncio>=1.4.0
 
 # 代码质量
-black>=26.5.1
-flake8>=7.3.0
-mypy>=2.3.1
+black>=26.10.0
+flake8>=7.4.1
+mypy>=2.4.0
 
 # 文档
 sphinx>=9.1.0
 sphinx-rtd-theme>=3.1.0
 
 # 日志和监控（可选）
-python-dotenv>=1.2.3
+python-dotenv>=1.2.4
 loguru>=0.7.3
